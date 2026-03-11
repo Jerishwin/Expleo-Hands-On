@@ -4,5 +4,5 @@
 /**
  * 
  */
-module ControlFlow {
+module String {
 }
