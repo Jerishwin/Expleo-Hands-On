@@ -12,7 +12,6 @@ public class Demo {
 		FirefoxOptions options = new FirefoxOptions();
 		options.addArguments("--headless");
 		WebDriver driver =  new FirefoxDriver(options);
-		driver.manage().window().maximize();
 		driver.get("https://www.flipkart.com/");
 		String title = driver.getTitle();
 		int length = title.length();
