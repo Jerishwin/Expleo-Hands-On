@@ -9,7 +9,6 @@ import org.openqa.selenium.interactions.Actions;
 public class ActionDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.leafground.com/drag.xhtml");
