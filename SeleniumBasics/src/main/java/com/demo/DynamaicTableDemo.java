@@ -22,13 +22,25 @@ public class DynamaicTableDemo {
 		login.click();
 		
 		Thread.sleep(2000);
-		List<WebElement> column = driver.findElements(By.xpath("//tr"));
-		List<WebElement> row = driver.findElements(By.xpath("//tr[1]/td"));
+		List<WebElement> contactNames = driver.findElements(By.xpath("//table[@id='myTable']/tr/td[2]"));
+		int contactCount = contactNames.size();
+		System.out.println("Total contacts: " + contactCount);
 		
-		int c = column.size();
-		int r = row.size();
+		for (WebElement contact : contactNames) {
+		    System.out.println(contact.getText());
+		}
 		
-		
+		int i=1;
+		for (WebElement contact : contactNames) {
+		    if (contact.getText().equals("Jasper Laden")) {
+		        List<WebElement> rowData = driver.findElements(By.xpath("//table[@id='myTable']/tr[" + (i) + "]"));
+		        for (WebElement data : rowData) {
+		            System.out.println(data.getText());
+		        }
+		    }
+		    i++;
+		}
+		driver.quit();
 	}
 
 }
