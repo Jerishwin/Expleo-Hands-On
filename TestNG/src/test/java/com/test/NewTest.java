@@ -23,7 +23,7 @@ public class NewTest {
 
 	@Test
 	public void Login() {
-		driver.findElement(By.xpath("//a[text()='Log i']")).click();
+		driver.findElement(By.xpath("//a[text()='Log in']")).click();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.findElement(By.id("loginusername")).sendKeys("Banton");
 		driver.findElement(By.id("loginpassword")).sendKeys("JeriJose");
