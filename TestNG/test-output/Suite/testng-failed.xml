@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <groups>
+      <run>
+        <include name="GroupA"/>
+        <include name="GroupB"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.NewTest">
+        <methods>
+          <include name="Login"/>
+          <include name="WrongLoginUser"/>
+          <include name="WrongLoginPassword"/>
+        </methods>
+      </class> <!-- com.test.NewTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
