@@ -9,7 +9,7 @@
   
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.test.TestDemo"/>
+      <class name="com.test.NewTest"/>
     </classes>
   </test>
   

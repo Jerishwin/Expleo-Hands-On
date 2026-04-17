@@ -1,79 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="1" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-16T15:53:23 IST" name="Suite" finished-at="2026-04-16T15:53:23 IST" duration-ms="187">
+  <suite started-at="2026-04-17T10:47:19 IST" name="Default suite" finished-at="2026-04-17T10:47:32 IST" duration-ms="13465">
     <groups>
     </groups>
-    <test started-at="2026-04-16T15:53:23 IST" name="ATest" finished-at="2026-04-16T15:53:23 IST" duration-ms="89">
-      <class name="com.test.AnnotationsDemo">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="beforeTest" finished-at="2026-04-16T15:53:23 IST" duration-ms="0" status="PASS">
+    <test started-at="2026-04-17T10:47:19 IST" name="Default test" finished-at="2026-04-17T10:47:32 IST" duration-ms="13465">
+      <class name="com.test.NewTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.NewTest@3f197a46]" started-at="2026-04-17T10:47:19 IST" name="beforeTest" finished-at="2026-04-17T10:47:22 IST" duration-ms="3087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="beforeClass" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
+        <test-method signature="Login()[pri:0, instance:com.test.NewTest@3f197a46]" started-at="2026-04-17T10:47:22 IST" name="Login" finished-at="2026-04-17T10:47:32 IST" duration-ms="10032" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Log i']"}
+  (Session info: chrome=147.0.7727.57)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0f55cd6bc6bbe7637af63a4d445322b, findElement {using=xpath, value=//a[text()='Log i']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\JERISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65085}, goog:processID: 23816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65085/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f55cd6bc6bbe7637af63a4d445322b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Log i']"}
+  (Session info: chrome=147.0.7727.57)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0f55cd6bc6bbe7637af63a4d445322b, findElement {using=xpath, value=//a[text()='Log i']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\JERISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65085}, goog:processID: 23816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65085/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f55cd6bc6bbe7637af63a4d445322b
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at com.test.NewTest.Login(NewTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="beforeMethod" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="f" finished-at="2026-04-16T15:53:23 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="afterMethod" finished-at="2026-04-16T15:53:23 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="beforeMethod" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f1()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="f1" finished-at="2026-04-16T15:53:23 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="afterMethod" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="afterClass" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="afterTest" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.NewTest@3f197a46]" started-at="2026-04-17T10:47:32 IST" name="afterTest" finished-at="2026-04-17T10:47:32 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.test.AnnotationsDemo -->
-    </test> <!-- ATest -->
-    <test started-at="2026-04-16T15:53:23 IST" name="Test" finished-at="2026-04-16T15:53:23 IST" duration-ms="16">
-      <class name="com.test.TestDemo">
-        <test-method signature="b()[pri:1, instance:com.test.TestDemo@5c5eefef]" started-at="2026-04-16T15:53:23 IST" name="b" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
+        <test-method signature="WrongLoginPassword()[pri:0, instance:com.test.NewTest@3f197a46]" started-at="2026-04-17T10:47:32 IST" name="WrongLoginPassword" finished-at="2026-04-17T10:47:32 IST" depends-on-methods="com.test.NewTest.Login" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.test.NewTest.WrongLoginPassword() on instance com.test.NewTest@3f197a46 depends on not successfully finished methods 
+[com.test.NewTest.Login() on instance com.test.NewTest@3f197a46]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.test.NewTest.WrongLoginPassword() on instance com.test.NewTest@3f197a46 depends on not successfully finished methods 
+[com.test.NewTest.Login() on instance com.test.NewTest@3f197a46]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- b -->
-        <test-method signature="c()[pri:2, instance:com.test.TestDemo@5c5eefef]" started-at="2026-04-16T15:53:23 IST" name="c" finished-at="2026-04-16T15:53:23 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- WrongLoginPassword -->
+        <test-method signature="WrongLoginUser()[pri:0, instance:com.test.NewTest@3f197a46]" started-at="2026-04-17T10:47:32 IST" name="WrongLoginUser" finished-at="2026-04-17T10:47:32 IST" depends-on-methods="com.test.NewTest.Login" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.test.NewTest.WrongLoginUser() on instance com.test.NewTest@3f197a46 depends on not successfully finished methods 
+[com.test.NewTest.Login() on instance com.test.NewTest@3f197a46]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.test.NewTest.WrongLoginUser() on instance com.test.NewTest@3f197a46 depends on not successfully finished methods 
+[com.test.NewTest.Login() on instance com.test.NewTest@3f197a46]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- c -->
-        <test-method signature="a()[pri:3, instance:com.test.TestDemo@5c5eefef]" started-at="2026-04-16T15:53:23 IST" name="a" finished-at="2026-04-16T15:53:23 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a -->
-      </class> <!-- com.test.TestDemo -->
-      <class name="com.test.AnnotationsDemo">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="beforeSuite" finished-at="2026-04-16T15:53:23 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="afterSuite" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.test.AnnotationsDemo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- WrongLoginUser -->
+      </class> <!-- com.test.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

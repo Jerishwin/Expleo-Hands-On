@@ -6,8 +6,10 @@
       <class name="com.test.NewTest">
         <methods>
           <include name="beforeTest"/>
+          <include name="Login"/>
+          <include name="WrongLoginUser"/>
           <include name="afterTest"/>
-          <include name="f"/>
+          <include name="WrongLoginPassword"/>
         </methods>
       </class> <!-- com.test.NewTest -->
     </classes>
