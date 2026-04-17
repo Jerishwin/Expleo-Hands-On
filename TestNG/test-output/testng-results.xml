@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-16T15:53:23 IST" name="Suite" finished-at="2026-04-16T15:53:23 IST" duration-ms="187">
+    <groups>
+    </groups>
+    <test started-at="2026-04-16T15:53:23 IST" name="ATest" finished-at="2026-04-16T15:53:23 IST" duration-ms="89">
+      <class name="com.test.AnnotationsDemo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="beforeTest" finished-at="2026-04-16T15:53:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="beforeClass" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="beforeMethod" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="f" finished-at="2026-04-16T15:53:23 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="afterMethod" finished-at="2026-04-16T15:53:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="beforeMethod" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f1()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="f1" finished-at="2026-04-16T15:53:23 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="afterMethod" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="afterClass" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="afterTest" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.AnnotationsDemo -->
+    </test> <!-- ATest -->
+    <test started-at="2026-04-16T15:53:23 IST" name="Test" finished-at="2026-04-16T15:53:23 IST" duration-ms="16">
+      <class name="com.test.TestDemo">
+        <test-method signature="b()[pri:1, instance:com.test.TestDemo@5c5eefef]" started-at="2026-04-16T15:53:23 IST" name="b" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="c()[pri:2, instance:com.test.TestDemo@5c5eefef]" started-at="2026-04-16T15:53:23 IST" name="c" finished-at="2026-04-16T15:53:23 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method signature="a()[pri:3, instance:com.test.TestDemo@5c5eefef]" started-at="2026-04-16T15:53:23 IST" name="a" finished-at="2026-04-16T15:53:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- com.test.TestDemo -->
+      <class name="com.test.AnnotationsDemo">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="beforeSuite" finished-at="2026-04-16T15:53:23 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.AnnotationsDemo@5f058f00]" started-at="2026-04-16T15:53:23 IST" name="afterSuite" finished-at="2026-04-16T15:53:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.test.AnnotationsDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
