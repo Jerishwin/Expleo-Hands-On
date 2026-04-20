@@ -3,7 +3,7 @@
 
 <suite name="TestNG parameter suite">
 
-	<test name="Params">
+	<test name="Params" parallel="methods" thread-count="3">
 		<parameter name="browser" value="chrome"/>
 		<parameter name="URL" value="https://demoblaze.com/index.html"/>
 		<parameter name="validName" value="Banton"/>

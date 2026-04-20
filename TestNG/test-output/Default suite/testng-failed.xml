@@ -5,8 +5,8 @@
     <classes>
       <class name="com.test.ParameterizedDemo">
         <methods>
+          <include name="teardon"/>
           <include name="beforeTest"/>
-          <include name="afterTest"/>
           <include name="WrongLogin"/>
         </methods>
       </class> <!-- com.test.ParameterizedDemo -->
