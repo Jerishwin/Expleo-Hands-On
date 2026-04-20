@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.SoftAssertionDemo">
+      <class name="com.test.ParameterizedDemo">
         <methods>
-          <include name="WrongLoginPassword"/>
           <include name="beforeTest"/>
-          <include name="Login"/>
           <include name="afterTest"/>
-          <include name="WrongLoginUser"/>
+          <include name="WrongLogin"/>
         </methods>
-      </class> <!-- com.test.SoftAssertionDemo -->
+      </class> <!-- com.test.ParameterizedDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 public class NewTest {
@@ -59,7 +60,6 @@ public class NewTest {
 		driver.findElement(By.id("loginusername")).sendKeys("ab1232e1");
 		driver.findElement(By.id("loginpassword")).sendKeys("JeriJose");
 		driver.findElement(By.xpath("//button[text()='Log in']")).click();
-		// driver.switchTo().alert().dismiss();
 		
 		wait.until(ExpectedConditions.alertIsPresent());
 		Alert alert = driver.switchTo().alert();
