@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Params(failed)">
+    <parameter name="validName" value="mac"/>
+    <parameter name="invalidName" value="kiot"/>
+    <classes>
+      <class name="com.test.DataDrivenTestDemo">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="teardon"/>
+          <include name="invalidSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.DataDrivenTestDemo -->
+    </classes>
+  </test> <!-- Params(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -9,62 +9,38 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">TestNG parameter suite</th></tr>
-<tr><td><a href="#t0">Params</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">26,892</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Params</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">9,971</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG parameter suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Params &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.test.ParameterizedDemo</td><td><a href="#m0">Login</a></td><td rowspan="1">1776683588685</td><td rowspan="1">2693</td></tr><tr class="failedeven"><td><a href="#m1">WrongLogin</a></td><td rowspan="2">1776683587715</td><td rowspan="2">21574</td></tr><tr class="failedeven"><td><a href="#m2">WrongLogin</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG parameter suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Params &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.test.ParameterizedDemo</td><td><a href="#m0">Login</a></td><td rowspan="1">1776751667863</td><td rowspan="1">8</td></tr><tr class="failedeven"><td><a href="#m1">WrongLogin</a></td><td rowspan="2">1776751668561</td><td rowspan="2">2</td></tr><tr class="failedeven"><td><a href="#m2">WrongLogin</a></td></tr></tbody>
 </table>
-<h2>Params</h2><h3 id="m0">com.test.ParameterizedDemo#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Banton</td><td>JeriJose</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
-  (Session info: chrome=147.0.7727.57): Wrong password.
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8227f6c972e9369fda65f06c38fde970, findElement {using=id, value=nameofuser}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\JERISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53629}, goog:processID: 26720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53629/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8227f6c972e9369fda65f06c38fde970
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:140)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:756)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:749)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-	at com.test.ParameterizedDemo.Login(ParameterizedDemo.java:42)
+<h2>Params</h2><h3 id="m0">com.test.ParameterizedDemo#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Banton</td><td>JeriJose</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from WebDriverWait to ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;WebElement&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;WebElement&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+
+	at com.test.ParameterizedDemo.Login(ParameterizedDemo.java:36)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
 ... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.test.ParameterizedDemo#WrongLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Banton</td><td>JeriJoseadkhcdj</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\JERISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53629}, goog:processID: 26720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53629/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8227f6c972e9369fda65f06c38fde970
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at com.test.ParameterizedDemo.WrongLogin(ParameterizedDemo.java:57)
+<h3 id="m1">com.test.ParameterizedDemo#WrongLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Banton</td><td>JeriJoseadkhcdj</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from WebDriverWait to ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;WebElement&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;Alert&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+
+	at com.test.ParameterizedDemo.WrongLogin(ParameterizedDemo.java:50)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
 ... Removed 7 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.test.ParameterizedDemo#WrongLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Banton</td><td>asdada</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\JERISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53629}, goog:processID: 26720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53629/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8227f6c972e9369fda65f06c38fde970
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at com.test.ParameterizedDemo.WrongLogin(ParameterizedDemo.java:57)
+<h3 id="m2">com.test.ParameterizedDemo#WrongLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Banton</td><td>asdada</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from WebDriverWait to ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;WebElement&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;Alert&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+
+	at com.test.ParameterizedDemo.WrongLogin(ParameterizedDemo.java:50)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)

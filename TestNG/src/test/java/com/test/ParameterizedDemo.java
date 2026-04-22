@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 public class ParameterizedDemo {
 	
 	private static final ThreadLocal <WebDriver> driver = new ThreadLocal<WebDriver>();
-	public WebDriverWait wait;
+	WebDriverWait wait; 
 
 	@AfterMethod
 	public void teardon() {

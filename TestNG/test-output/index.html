@@ -140,28 +140,12 @@
                   </a> <!-- Login(Banton, JeriJose) -->
                   <span class="method-name">Login</span>
                   <span class="parameters">(Banton,JeriJose)</span>
-                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
-  (Session info: chrome=147.0.7727.57): Wrong password.
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8227f6c972e9369fda65f06c38fde970, findElement {using=id, value=nameofuser}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\JERISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53629}, goog:processID: 26720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53629/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8227f6c972e9369fda65f06c38fde970
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:140)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:756)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:749)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-	at com.test.ParameterizedDemo.Login(ParameterizedDemo.java:42)
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from WebDriverWait to ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;WebElement&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;WebElement&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+
+	at com.test.ParameterizedDemo.Login(ParameterizedDemo.java:36)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
@@ -177,16 +161,12 @@ Session ID: 8227f6c972e9369fda65f06c38fde970
                   </a> <!-- WrongLogin(Banton, JeriJoseadkhcdj) -->
                   <span class="method-name">WrongLogin</span>
                   <span class="parameters">(Banton,JeriJoseadkhcdj)</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\JERISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53629}, goog:processID: 26720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53629/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8227f6c972e9369fda65f06c38fde970
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at com.test.ParameterizedDemo.WrongLogin(ParameterizedDemo.java:57)
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from WebDriverWait to ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;WebElement&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;Alert&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+
+	at com.test.ParameterizedDemo.WrongLogin(ParameterizedDemo.java:50)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
@@ -200,16 +180,12 @@ Session ID: 8227f6c972e9369fda65f06c38fde970
                   </a> <!-- WrongLogin(Banton, asdada) -->
                   <span class="method-name">WrongLogin</span>
                   <span class="parameters">(Banton,asdada)</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\JERISH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53629}, goog:processID: 26720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53629/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8227f6c972e9369fda65f06c38fde970
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at com.test.ParameterizedDemo.WrongLogin(ParameterizedDemo.java:57)
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from WebDriverWait to ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;WebElement&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+	The method until(ExpectedCondition&lt;Alert&gt;) is undefined for the type ThreadLocal&lt;WebDriverWait&gt;
+
+	at com.test.ParameterizedDemo.WrongLogin(ParameterizedDemo.java:50)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
@@ -277,22 +253,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'WrongLogin')
+data.setCell(0, 1, 'Login')
 data.setCell(0, 2, 'com.test.ParameterizedDemo')
-data.setCell(0, 3, 21840);
+data.setCell(0, 3, 8);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'WrongLogin')
 data.setCell(1, 2, 'com.test.ParameterizedDemo')
-data.setCell(1, 3, 21574);
+data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Login')
+data.setCell(2, 1, 'WrongLogin')
 data.setCell(2, 2, 'com.test.ParameterizedDemo')
-data.setCell(2, 3, 2693);
+data.setCell(2, 3, 2);
 window.suiteTableData['TestNG_parameter_suite']= { tableData: data, tableDiv: 'times-div-TestNG_parameter_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <span class="suite-total-time">Total running time: 12 ms</span>
               <div id="times-div-TestNG_parameter_suite">
               </div> <!-- times-div-TestNG_parameter_suite -->
             </div> <!-- times-div -->
@@ -325,41 +301,41 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest(chrome, https://demoblaze.com/index.html)</span>
-                <span class="method-start">4 ms</span>
+                <span class="method-start">2 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest(chrome, https://demoblaze.com/index.html)</span>
-                <span class="method-start">4 ms</span>
+                <span class="method-start">2 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">WrongLogin(Banton, JeriJoseadkhcdj)</span>
-                <span class="method-start">3441 ms</span>
-              </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Login(Banton, JeriJose)</span>
-                <span class="method-start">4411 ms</span>
+                <span class="method-start">8036 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardon</span>
+                <span class="method-start">8050 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">WrongLogin(Banton, JeriJoseadkhcdj)</span>
+                <span class="method-start">8734 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardon</span>
+                <span class="method-start">8740 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">WrongLogin(Banton, asdada)</span>
-                <span class="method-start">4692 ms</span>
+                <span class="method-start">9815 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardon</span>
-                <span class="method-start">7118 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">teardon</span>
-                <span class="method-start">25019 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">teardon</span>
-                <span class="method-start">26536 ms</span>
+                <span class="method-start">9819 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
