@@ -5,10 +5,9 @@
     <classes>
       <class name="com.test.DataDrivenTestDemo">
         <methods>
-          <include name="beforeTest"/>
+          <include name="WrongLoginUser" invocation-numbers="0"/>
           <include name="teardon"/>
-          <include name="invalidSearch"/>
-          <include name="validSearch"/>
+          <include name="beforeTest"/>
         </methods>
       </class> <!-- com.test.DataDrivenTestDemo -->
     </classes>

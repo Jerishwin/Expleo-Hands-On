@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 21 16:30:53 IST 2026</td>
+<td>Started on:</td><td>Wed Apr 22 11:06:22 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19516 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17967 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,8 +78,8 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.test.DataDrivenTestDemo.invalidSearch()'><b>invalidSearch</b><br>Test class: com.test.DataDrivenTestDemo</td>
 <td><div><pre>org.testng.TestNGException: 
-Parameter &apos;validName&apos; is required by @Test on method invalidSearch but has not been marked @Optional or defined
-in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1948500495\testng-customsuite.xml
+Parameter &apos;invalidName&apos; is required by @Test on method invalidSearch but has not been marked @Optional or defined
+in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1836442873\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:264)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -107,10 +107,10 @@ in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1948500495\testn
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace527247308", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace527247308'><pre>org.testng.TestNGException: 
-Parameter &apos;validName&apos; is required by @Test on method invalidSearch but has not been marked @Optional or defined
-in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1948500495\testng-customsuite.xml
+</pre></div><a href='#' onClick='toggleBox("stack-trace1817281652", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1817281652'><pre>org.testng.TestNGException: 
+Parameter &apos;invalidName&apos; is required by @Test on method invalidSearch but has not been marked @Optional or defined
+in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1836442873\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:264)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -140,12 +140,86 @@ in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1948500495\testn
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.test.DataDrivenTestDemo@c33b74f</td></tr>
+<td>com.test.DataDrivenTestDemo@97e93f1</td></tr>
+<tr>
+<td title='com.test.DataDrivenTestDemo.WrongLoginUser()'><b>WrongLoginUser</b><br>Test class: com.test.DataDrivenTestDemo<br>Parameters: Danny, aadd</td>
+<td><div><pre>java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.test.DataDrivenTestDemo.WrongLoginUser(DataDrivenTestDemo.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1056953587", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1056953587'><pre>java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.test.DataDrivenTestDemo.WrongLoginUser(DataDrivenTestDemo.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.test.DataDrivenTestDemo@97e93f1</td></tr>
 <tr>
 <td title='com.test.DataDrivenTestDemo.validSearch()'><b>validSearch</b><br>Test class: com.test.DataDrivenTestDemo</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;validName&apos; is required by @Test on method validSearch but has not been marked @Optional or defined
-in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1948500495\testng-customsuite.xml
+in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1836442873\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:264)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -173,10 +247,10 @@ in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1948500495\testn
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace827099978", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace827099978'><pre>org.testng.TestNGException: 
+</pre></div><a href='#' onClick='toggleBox("stack-trace705062537", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace705062537'><pre>org.testng.TestNGException: 
 Parameter &apos;validName&apos; is required by @Test on method validSearch but has not been marked @Optional or defined
-in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1948500495\testng-customsuite.xml
+in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1836442873\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:264)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -206,7 +280,7 @@ in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1948500495\testn
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.test.DataDrivenTestDemo@c33b74f</td></tr>
+<td>com.test.DataDrivenTestDemo@97e93f1</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -217,20 +291,15 @@ in C:\Users\Jerishwin Joseph\AppData\Local\Temp\testng-eclipse--1948500495\testn
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.DataDrivenTestDemo.WrongLoginUser()'><b>WrongLoginUser</b><br>Test class: com.test.DataDrivenTestDemo<br>Parameters: Danny, aadd</td>
-<td></td>
-<td>1</td>
-<td>com.test.DataDrivenTestDemo@c33b74f</td></tr>
-<tr>
 <td title='com.test.DataDrivenTestDemo.WrongLoginUser()'><b>WrongLoginUser</b><br>Test class: com.test.DataDrivenTestDemo<br>Parameters: asda, 1asdad</td>
 <td></td>
 <td>1</td>
-<td>com.test.DataDrivenTestDemo@c33b74f</td></tr>
+<td>com.test.DataDrivenTestDemo@97e93f1</td></tr>
 <tr>
 <td title='com.test.DataDrivenTestDemo.Login()'><b>Login</b><br>Test class: com.test.DataDrivenTestDemo<br>Parameters: jeyakaraj@gmail.com, john</td>
 <td></td>
 <td>1</td>
-<td>com.test.DataDrivenTestDemo@c33b74f</td></tr>
+<td>com.test.DataDrivenTestDemo@97e93f1</td></tr>
 </table><p>
 </body>
 </html>

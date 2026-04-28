@@ -3,7 +3,7 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Params(failed)">
     <parameter name="validName" value="mac"/>
-    <parameter name="invalidName" value="kiot"/>
+    <parameter name="invalidName" value="mac"/>
     <classes>
       <class name="com.test.DataDrivenTestDemo">
         <methods>
