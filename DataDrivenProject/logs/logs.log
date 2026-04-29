@@ -333,3 +333,55 @@
 [INFO ] 2026-04-22 14:34:07.393 [main] DataDrivenTestDemo - The invalid login is Started
 [WARN ] 2026-04-22 14:34:08.368 [main] DataDrivenTestDemo - Login is unsucessfull
 [INFO ] 2026-04-22 14:34:08.485 [main] DataDrivenTestDemo - The Browser is closed
+[DEBUG] 2026-04-28 10:48:08.532 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 10:48:08.538 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 10:48:08.540 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 10:48:13.324 [main] DataDrivenTestDemo - Driver is opened
+[INFO ] 2026-04-28 10:48:13.335 [main] DataDrivenTestDemo - The valid login is Started
+[INFO ] 2026-04-28 10:48:15.074 [main] DataDrivenTestDemo - Login is sucessfull
+[INFO ] 2026-04-28 10:48:15.284 [main] DataDrivenTestDemo - The Browser is closed
+[DEBUG] 2026-04-28 10:48:15.290 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 10:48:15.291 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 10:48:15.292 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 10:48:17.079 [main] DataDrivenTestDemo - Driver is opened
+[INFO ] 2026-04-28 10:48:17.080 [main] DataDrivenTestDemo - The invalid login is Started
+[WARN ] 2026-04-28 10:48:18.249 [main] DataDrivenTestDemo - Login is unsucessfull
+[INFO ] 2026-04-28 10:48:18.429 [main] DataDrivenTestDemo - The Browser is closed
+[INFO ] 2026-04-28 10:48:19.866 [main] DataDrivenTestDemo - Driver is opened
+[INFO ] 2026-04-28 10:48:19.867 [main] DataDrivenTestDemo - The invalid login is Started
+[WARN ] 2026-04-28 10:48:21.914 [main] DataDrivenTestDemo - Login is unsucessfull
+[INFO ] 2026-04-28 10:48:22.087 [main] DataDrivenTestDemo - The Browser is closed
+[INFO ] 2026-04-28 10:48:23.587 [main] DataDrivenTestDemo - Driver is opened
+[INFO ] 2026-04-28 10:48:23.589 [main] DataDrivenTestDemo - The invalid Search is Started
+[ERROR] 2026-04-28 10:48:23.934 [main] DataDrivenTestDemo - Product are not found
+[INFO ] 2026-04-28 10:48:24.041 [main] DataDrivenTestDemo - The Browser is closed
+[INFO ] 2026-04-28 10:48:25.473 [main] DataDrivenTestDemo - Driver is opened
+[INFO ] 2026-04-28 10:48:25.474 [main] DataDrivenTestDemo - The valid Search is Started
+[INFO ] 2026-04-28 10:48:25.828 [main] DataDrivenTestDemo - Search is Sucessfull
+[INFO ] 2026-04-28 10:48:25.960 [main] DataDrivenTestDemo - The Browser is closed
+[DEBUG] 2026-04-28 12:01:32.247 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 12:01:32.254 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 12:01:32.257 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 12:01:36.973 [main] DataDrivenTestDemo - Driver is opened
+[INFO ] 2026-04-28 12:01:36.987 [main] DataDrivenTestDemo - The valid login is Started
+[INFO ] 2026-04-28 12:01:39.767 [main] DataDrivenTestDemo - Login is sucessfull
+[INFO ] 2026-04-28 12:01:40.042 [main] DataDrivenTestDemo - The Browser is closed
+[DEBUG] 2026-04-28 12:01:40.051 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 12:01:40.052 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 12:01:40.054 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 12:01:42.007 [main] DataDrivenTestDemo - Driver is opened
+[INFO ] 2026-04-28 12:01:42.009 [main] DataDrivenTestDemo - The invalid login is Started
+[WARN ] 2026-04-28 12:01:44.550 [main] DataDrivenTestDemo - Login is unsucessfull
+[INFO ] 2026-04-28 12:01:44.797 [main] DataDrivenTestDemo - The Browser is closed
+[INFO ] 2026-04-28 12:01:47.021 [main] DataDrivenTestDemo - Driver is opened
+[INFO ] 2026-04-28 12:01:47.023 [main] DataDrivenTestDemo - The invalid login is Started
+[WARN ] 2026-04-28 12:01:49.399 [main] DataDrivenTestDemo - Login is unsucessfull
+[INFO ] 2026-04-28 12:01:49.632 [main] DataDrivenTestDemo - The Browser is closed
+[INFO ] 2026-04-28 12:01:51.488 [main] DataDrivenTestDemo - Driver is opened
+[INFO ] 2026-04-28 12:01:51.491 [main] DataDrivenTestDemo - The invalid Search is Started
+[ERROR] 2026-04-28 12:01:52.041 [main] DataDrivenTestDemo - Product are not found
+[INFO ] 2026-04-28 12:01:52.251 [main] DataDrivenTestDemo - The Browser is closed
+[INFO ] 2026-04-28 12:01:54.112 [main] DataDrivenTestDemo - Driver is opened
+[INFO ] 2026-04-28 12:01:54.114 [main] DataDrivenTestDemo - The valid Search is Started
+[INFO ] 2026-04-28 12:01:54.644 [main] DataDrivenTestDemo - Search is Sucessfull
+[INFO ] 2026-04-28 12:01:54.850 [main] DataDrivenTestDemo - The Browser is closed
