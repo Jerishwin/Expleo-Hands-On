@@ -2,36 +2,36 @@ package com.test;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.pages.DashboardPage;
 import com.pages.LoginPage;
+
+@Listeners(Listner.class)
 
 public class BaseTest {
 	public static WebDriver driver;
 	LoginPage objLogin;
 	DashboardPage objDash;
 	
-	@BeforeTest
+	@BeforeMethod
 	public void setup() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		driver.get("https://demoblaze.com/index.html");
 	}
 	
-	@AfterTest
+	@AfterMethod
 	public void close() {
 		driver.close();
 	}
@@ -39,31 +39,23 @@ public class BaseTest {
   @Test(priority=1)
   public void loginTest() {
 	  objLogin = new LoginPage(driver);
-	  String loginTitle = objLogin.getLoginText();
-	  Assert.assertTrue(loginTitle.contains("Login"));
-	  objLogin.login("Admin", "admin123");
+	  objLogin.login("Banton", "Jer");
+	  Assert.assertTrue(objLogin.getLoginText().contains("Welcome Banton"));
 	  
   }
   
-  @Test
-  public void invalidlogin() {
+  @Test(priority=0)
+  public void invalidloginTest() {
 	  objLogin = new LoginPage(driver);
-	  String loginTitle = objLogin.getLoginText();
-	  Assert.assertTrue(loginTitle.contains("Login"));
-	  objLogin.login("Admin", "");
-	  String error = objLogin.getError();
-	  Assert.assertTrue(error.contains("Required"));
+	  objLogin.login("aedadd2", "JeriJose");
+	  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	  Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+	  
+	  Assert.assertTrue(alert.getText().contains("User does not exist."));
+	  alert.accept();
+	  
   }
   
-  @Test
-  public void invalidlogincred() {
-	  objLogin = new LoginPage(driver);
-	  String loginTitle = objLogin.getLoginText();
-	  Assert.assertTrue(loginTitle.contains("Login"));
-	  objLogin.login("sdasd", "sdasdad");
-	  String error = objLogin.getErrorMsg();
-	  Assert.assertTrue(error.contains("Invalid credentials"));
-  }
   
   
 }
