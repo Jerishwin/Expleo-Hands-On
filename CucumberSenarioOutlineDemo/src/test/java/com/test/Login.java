@@ -1,6 +1,8 @@
 package com.test;
 
 import java.time.Duration;
+import java.util.List;
+import java.util.Map;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -10,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
@@ -68,4 +71,46 @@ public class Login {
 	    alert.accept();
 	    
 	}
+	
+	@When("User enters valid username and password")
+	public void user_enters_valid_username_and_password(DataTable dataTable) {
+	    List<List<String>> form = dataTable.asLists(String.class);
+	    String user = form.get(0).get(1);
+	    String pass = form.get(1).get(1);
+	    WebElement use = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
+	    use.sendKeys(user);
+	    driver.findElement(By.id("loginpassword")).sendKeys(pass);
+	}
+
+	@Then("User should be able to Login Successfully")
+	public void user_should_be_able_to_login_successfully() {
+		WebElement msg = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("nameofuser")));
+		System.out.println(msg.getText());
+	}
+	
+	@Then("User enters invalid credentials and login is unsessfull")
+	public void user_enters_invalid_credentials_and_login_is_unsessfull(DataTable dataTable) {
+		List<Map<String,String>> user = dataTable.asMaps(String.class,String.class);
+		for(Map<String,String>form:user) {
+			String username = form.get("user");
+			System.out.println(username);
+		    WebElement use = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
+		    use.sendKeys(username);
+		    
+		    String pass = form.get("pass");
+			System.out.println(pass);
+		    driver.findElement(By.id("loginpassword")).sendKeys(pass);
+		    
+		    String error = form.get("error");
+			System.out.println(error);
+		    driver.findElement(By.xpath("//button[text()='Log in']")).click();
+		    Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+		    alert=driver.switchTo().alert();
+		    System.out.println(alert.getText());
+		    alert.accept();
+		    driver.findElement(By.id("loginpassword")).clear();
+		    driver.findElement(By.id("loginusername")).clear();
+		}
+	}
+
 }

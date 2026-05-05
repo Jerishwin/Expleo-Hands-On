@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(plugin= {"pretty","html:target/cucumber-reports/Cucumber.html"},
-features="src\\test\\resources\\com\\feature\\login.feature",
+features="src\\test\\resources\\com\\feature\\MultipleDataTable.feature",
 glue="com.test",
 tags= "@invalid")
 
