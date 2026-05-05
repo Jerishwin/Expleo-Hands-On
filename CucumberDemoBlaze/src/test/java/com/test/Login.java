@@ -37,7 +37,7 @@ public class Login {
 	@Given("clicks the login button")
 	public void clicks_the_login_button() {
 	    driver.findElement(By.id("login2")).click();
-	    driver.wait(ExpectedConditions.visibilityOf((WebElement) By.id("loginusername")));
+	    driver.wait(ExpectedConditions.((WebElement) By.id("loginusername")));
 	}
 
 	@When("User enters valid username as {string}")
