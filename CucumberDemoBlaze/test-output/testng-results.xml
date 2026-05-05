@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-04T15:06:27 IST" name="Default suite" finished-at="2026-05-04T15:06:28 IST" duration-ms="746">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestNgRunner@9597028]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-05-04T15:06:27 IST" name="Default test" finished-at="2026-05-04T15:06:28 IST" duration-ms="746">
+      <class name="com.runner.TestNgRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.TestNgRunner@9597028]" started-at="2026-05-04T15:06:27 IST" name="setUpClass" finished-at="2026-05-04T15:06:27 IST" duration-ms="524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@372ea2bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestNgRunner@9597028]" started-at="2026-05-04T15:06:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-04T15:06:28 IST" duration-ms="119" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on Homepage' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on Homepage")
+public void user_is_on_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("clicks the login button")
+public void clicks_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters valid username as {string}")
+public void user_enters_valid_username_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters valid password as {string}")
+public void user_enters_valid_password_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should be able to Login Successfully")
+public void user_should_be_able_to_login_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on Homepage' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on Homepage")
+public void user_is_on_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("clicks the login button")
+public void clicks_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters valid username as {string}")
+public void user_enters_valid_username_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters valid password as {string}")
+public void user_enters_valid_password_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should be able to Login Successfully")
+public void user_should_be_able_to_login_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on Homepage(file:///E:/Expleo/CucumberDemoBlaze/src/test/resources/com/feature/login.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestNgRunner@9597028]" started-at="2026-05-04T15:06:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-04T15:06:28 IST" duration-ms="16" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on Homepage' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on Homepage")
+public void user_is_on_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("clicks the login button")
+public void clicks_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters valid username as {string}")
+public void user_enters_valid_username_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters invalid password as {string}")
+public void user_enters_invalid_password_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should face an alert saying {string}")
+public void user_should_face_an_alert_saying(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on Homepage' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on Homepage")
+public void user_is_on_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("clicks the login button")
+public void clicks_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters valid username as {string}")
+public void user_enters_valid_username_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters invalid password as {string}")
+public void user_enters_invalid_password_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should face an alert saying {string}")
+public void user_should_face_an_alert_saying(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on Homepage(file:///E:/Expleo/CucumberDemoBlaze/src/test/resources/com/feature/login.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestNgRunner@9597028]" started-at="2026-05-04T15:06:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-04T15:06:28 IST" duration-ms="9" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with unregestered username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on Homepage' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on Homepage")
+public void user_is_on_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("clicks the login button")
+public void clicks_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters invalid username as {string}")
+public void user_enters_invalid_username_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters invalid password as {string}")
+public void user_enters_invalid_password_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should face an alert saying {string}")
+public void user_should_face_an_alert_saying(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on Homepage' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on Homepage")
+public void user_is_on_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("clicks the login button")
+public void clicks_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters invalid username as {string}")
+public void user_enters_invalid_username_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters invalid password as {string}")
+public void user_enters_invalid_password_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should face an alert saying {string}")
+public void user_should_face_an_alert_saying(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on Homepage(file:///E:/Expleo/CucumberDemoBlaze/src/test/resources/com/feature/login.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.TestNgRunner@9597028]" started-at="2026-05-04T15:06:28 IST" name="tearDownClass" finished-at="2026-05-04T15:06:28 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.TestNgRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
