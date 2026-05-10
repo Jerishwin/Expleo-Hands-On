@@ -8,10 +8,11 @@ import actions.RegistrationActions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.datatable.DataTable;
 
 public class RegisterStepDefinition {
 	
-	RegistrationActions ra = new RegistrationActions(Hooks.driver);
+	RegistrationActions ra = new RegistrationActions(Hooks.getDriver());
 	
 
 	@Given("the user is on register page")
@@ -20,7 +21,7 @@ public class RegisterStepDefinition {
 	}
 
 	@When("the user enters the valid cedentials")
-	public void the_user_enters_the_valid_cedentials(io.cucumber.datatable.DataTable dataTable) {
+	public void the_user_enters_the_valid_cedentials(DataTable dataTable) {
 	    List<List<String>> data = dataTable.asLists();
 	    
 	    String firstName = data.get(0).get(0);

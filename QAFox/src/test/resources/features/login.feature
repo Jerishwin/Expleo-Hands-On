@@ -14,5 +14,5 @@ Feature: M_VIGNESHWARANN_5TH_MAY_QAFox_LoginFearure
 	 
 	 Examples:
 	 | email                        | password | linkText                      |
-	 | vigneshwaran.coder@gmail.com | 1234     | Edit your account information |
-	 | vigneshwaran.coder@gmail.com1 | 1234     | Edit your account information |
+	 | jeriiii@gmail.com			| 1234     | Edit your account information |
+	 | jeriii@gmail.com				| 1234     | Edit your account information |
