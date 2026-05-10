@@ -1,0 +1,66 @@
+[INFO ] 2026-04-28 22:32:29 910 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-28 22:32:41 425 [TestNG-test-Test-1] Listener - dashboardTest test case started
+[INFO ] 2026-04-28 22:32:49 346 [TestNG-test-Test-3] Listener - loginTest test case started
+[INFO ] 2026-04-28 22:32:50 738 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-28 22:32:59 141 [TestNG-test-Test-3] Listener - The name of the testcase passed is :loginTest
+[ERROR] 2026-04-28 22:32:59 198 [TestNG-test-Test-2] Listener - The name of the testcase failed is :invalidLoginTest
+[INFO ] 2026-04-28 22:33:22 556 [TestNG-test-Test-1] Listener - The name of the testcase passed is :dashboardTest
+[INFO ] 2026-04-28 22:33:25 912 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-28 22:33:26 037 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-28 22:33:33 073 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-28 22:33:43 168 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-28 22:33:59 603 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[ERROR] 2026-04-28 22:34:03 790 [TestNG-test-Test-4] Listener - The name of the testcase failed is :validLoginTest
+[INFO ] 2026-04-28 22:34:05 844 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-28 22:37:21 581 [TestNG-test-Test-1] Listener - dashboardTest test case started
+[INFO ] 2026-04-28 22:37:43 466 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-28 22:37:44 699 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-28 22:37:44 807 [TestNG-test-Test-3] Listener - loginTest test case started
+[INFO ] 2026-04-28 22:37:47 824 [TestNG-test-Test-3] Listener - The name of the testcase passed is :loginTest
+[INFO ] 2026-04-28 22:37:50 474 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-28 22:37:52 779 [TestNG-test-Test-1] Listener - The name of the testcase passed is :dashboardTest
+[INFO ] 2026-04-28 22:37:57 458 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-28 22:38:02 922 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-28 22:38:05 696 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-28 22:38:10 207 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-28 22:38:21 579 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[ERROR] 2026-04-28 22:38:22 888 [TestNG-test-Test-4] Listener - The name of the testcase failed is :validLoginTest
+[INFO ] 2026-04-28 22:38:23 885 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-28 22:43:22 796 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-28 22:43:23 465 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-28 22:43:25 414 [TestNG-test-Test-3] Listener - loginTest test case started
+[INFO ] 2026-04-28 22:43:25 585 [TestNG-test-Test-1] Listener - dashboardTest test case started
+[INFO ] 2026-04-28 22:43:30 721 [TestNG-test-Test-3] Listener - The name of the testcase passed is :loginTest
+[INFO ] 2026-04-28 22:43:33 162 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-28 22:43:47 496 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-28 22:43:47 944 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-28 22:43:49 394 [TestNG-test-Test-1] Listener - The name of the testcase passed is :dashboardTest
+[INFO ] 2026-04-28 22:43:54 112 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-28 22:43:54 230 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-28 22:44:01 205 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-28 22:44:05 663 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[ERROR] 2026-04-28 22:44:11 787 [TestNG-test-Test-4] Listener - The name of the testcase failed is :validLoginTest
+[INFO ] 2026-04-28 22:46:37 655 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-28 22:46:38 344 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-28 22:46:38 503 [TestNG-test-Test-3] Listener - loginTest test case started
+[INFO ] 2026-04-28 22:46:38 576 [TestNG-test-Test-1] Listener - dashboardTest test case started
+[INFO ] 2026-04-28 22:46:40 837 [TestNG-test-Test-3] Listener - The name of the testcase passed is :loginTest
+[INFO ] 2026-04-28 22:46:48 795 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-28 22:46:49 570 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-28 22:46:49 997 [TestNG-test-Test-1] Listener - The name of the testcase passed is :dashboardTest
+[INFO ] 2026-04-28 22:46:58 017 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-28 22:47:00 092 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-28 22:47:08 418 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-28 22:47:10 996 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-05-10 21:53:01 324 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-05-10 21:53:01 922 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-05-10 21:53:02 475 [TestNG-test-Test-1] Listener - dashboardTest test case started
+[INFO ] 2026-05-10 21:53:03 266 [TestNG-test-Test-3] Listener - loginTest test case started
+[INFO ] 2026-05-10 21:53:03 940 [TestNG-test-Test-3] Listener - The name of the testcase passed is :loginTest
+[INFO ] 2026-05-10 21:53:03 977 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-05-10 21:53:05 291 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-05-10 21:53:05 500 [TestNG-test-Test-1] Listener - The name of the testcase passed is :dashboardTest
+[INFO ] 2026-05-10 21:53:09 629 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-05-10 21:53:10 656 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-05-10 21:53:15 516 [TestNG-test-Test-2] Listener - invalidLoginTest test case started
+[INFO ] 2026-05-10 21:53:16 399 [TestNG-test-Test-2] Listener - The name of the testcase passed is :invalidLoginTest
