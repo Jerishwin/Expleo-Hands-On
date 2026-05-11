@@ -8,10 +8,11 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/resources/features",
 		glue = "stepdefinitions",
-				plugin = {"pretty", 
+				plugin = {"usage", 
 						"html:target/cucumber-report.html",
 						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-						"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
+						"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+						"rerun:target/failed-rerun.txt"}
 )
 
 public class TestRunner extends AbstractTestNGCucumberTests{
