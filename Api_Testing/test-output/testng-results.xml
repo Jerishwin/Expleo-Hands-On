@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-16T09:12:07 IST" name="Suite" finished-at="2026-06-16T09:12:17 IST" duration-ms="9501">
+    <groups>
+    </groups>
+    <test started-at="2026-06-16T09:12:07 IST" name="Test" finished-at="2026-06-16T09:12:17 IST" duration-ms="9501">
+      <class name="com.tests.DeletePostTest">
+        <test-method signature="DeletePost()[pri:0, instance:com.tests.DeletePostTest@708f5957]" started-at="2026-06-16T09:12:09 IST" name="DeletePost" finished-at="2026-06-16T09:12:09 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePost -->
+      </class> <!-- com.tests.DeletePostTest -->
+      <class name="com.tests.GetUserTest">
+        <test-method signature="getUserTest()[pri:0, instance:com.tests.GetUserTest@7722c3c3]" started-at="2026-06-16T09:12:10 IST" name="getUserTest" finished-at="2026-06-16T09:12:11 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+      </class> <!-- com.tests.GetUserTest -->
+      <class name="com.tests.UpdatePostPartialTest">
+        <test-method signature="updatePostPartially()[pri:0, instance:com.tests.UpdatePostPartialTest@68999068]" started-at="2026-06-16T09:12:09 IST" name="updatePostPartially" finished-at="2026-06-16T09:12:10 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePostPartially -->
+      </class> <!-- com.tests.UpdatePostPartialTest -->
+      <class name="com.tests.GetPostTest">
+        <test-method signature="getPost()[pri:0, instance:com.tests.GetPostTest@3c407114]" started-at="2026-06-16T09:12:07 IST" name="getPost" finished-at="2026-06-16T09:12:09 IST" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPost -->
+      </class> <!-- com.tests.GetPostTest -->
+      <class name="com.tests.UpdatePostTest">
+        <test-method signature="updatePost()[pri:0, instance:com.tests.UpdatePostTest@2ef3eef9]" started-at="2026-06-16T09:12:11 IST" name="updatePost" finished-at="2026-06-16T09:12:12 IST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePost -->
+      </class> <!-- com.tests.UpdatePostTest -->
+      <class name="com.tests.Selenium_test">
+        <test-method signature="test()[pri:0, instance:com.tests.Selenium_test@291ae]" started-at="2026-06-16T09:12:12 IST" name="test" finished-at="2026-06-16T09:12:16 IST" duration-ms="3961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.tests.Selenium_test -->
+      <class name="com.tests.ApiValidation">
+        <test-method signature="validateUserData()[pri:0, instance:com.tests.ApiValidation@243c4f91]" started-at="2026-06-16T09:12:12 IST" name="validateUserData" finished-at="2026-06-16T09:12:12 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserData -->
+      </class> <!-- com.tests.ApiValidation -->
+      <class name="com.tests.CreateUserTest">
+        <test-method signature="createUser()[pri:0, instance:com.tests.CreateUserTest@61df66b6]" started-at="2026-06-16T09:12:16 IST" name="createUser" finished-at="2026-06-16T09:12:17 IST" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- com.tests.CreateUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
