@@ -1,0 +1,5 @@
+# Created at 2026-06-18T14:37:00.228
+Boot Manifest-JAR contains absolute paths in classpath 'D:\EXPLEO SMARTCLIFF\Phase - 11 Mobile App Testing\CalculatorAutomation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
