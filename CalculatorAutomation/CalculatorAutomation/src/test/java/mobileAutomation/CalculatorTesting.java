@@ -24,9 +24,9 @@ public class CalculatorTesting {
         UiAutomator2Options options = new UiAutomator2Options();
         options.setPlatformName("Android");
         options.setAutomationName("UiAutomator2");
-        options.setUdid("RZCY82554JT"); // Your Samsung device ID
-        options.setAppPackage("com.sec.android.app.popupcalculator");
-        options.setAppActivity("com.sec.android.app.popupcalculator.Calculator");
+        options.setUdid("16e1200a119f"); 
+        options.setAppPackage("com.miui.calculator");
+        options.setAppActivity("com.miui.calculator.cal.CalculatorActivity");
         options.setNoReset(true);
 
         

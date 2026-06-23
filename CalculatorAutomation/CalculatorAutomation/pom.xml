@@ -9,7 +9,7 @@
 	<dependencies>
 
 		<!-- Appium Java Client -->
-		<dependency>
+		<dependency> 
 			<groupId>io.appium</groupId>
 			<artifactId>java-client</artifactId>
 			<version>8.6.0</version>
